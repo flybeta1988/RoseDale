@@ -1,0 +1,391 @@
+
+@media (min-width: 480px) {
+    div.rf_value select {
+        width: auto;
+    }
+
+    #rfi_captcha > div.rf_name {
+        float: left;
+        display: block;
+        width: 136px;
+    }
+
+    #rfi_captcha > div.rf_value {
+        margin-left: 146px;
+    }
+
+    .rfqCartProductDetails {
+        text-align: left;
+        border: none;
+    }
+
+    div.rfqPriceContainer {
+        text-align: right;
+    }
+
+    div.cartButtonCell.right {
+        text-align: right;
+    }
+
+    .titled_progressbar li {
+        font-size: 14px !important;
+    }
+
+    /* Account */
+    div#account_login_returning > .account-block, div#account_login_new > .account-block {
+        height: 370px;
+    }
+}
+
+@media (min-width: 768px) {
+    div.upper_nav {
+        display: inline-block;
+    }
+
+    #header_search {
+        display: block;
+    }
+
+    div#qf-firstname input, div#qf-lastname input, div#qf-Email input {
+        margin-bottom: 10px;
+    }
+
+    div#qf-quickform-submit {
+        margin-top: 3px;
+    }
+
+    div#bodyContent > h7 {
+        width: calc(100% - 280px);
+        margin-top: 16px;
+    }
+
+    div#bodyContent > form > div > h7 {
+        width: calc(100% - 280px);
+        margin-top: 16px;
+    }
+
+    #need-help {
+        margin-top: -5px;
+        float: right;
+    }
+
+    div#categoryPdfContainer {
+        float: right;
+        margin-top: 11px;
+    }
+
+    /* Quick Contact */
+    #quick_contactus {
+        width: 610px;
+        margin: 0 auto 30px auto;
+    }
+
+    #quick_contactus #rfi_email {
+        margin-left: 5px;
+    }
+
+    #quick_contactus #rfi_name input,
+    #quick_contactus #rfi_email input {
+        width: 300px;
+        height: 29px;
+    }
+
+    #quick_contactus #rfi_name {
+        margin-right: 5px;
+        width: auto;
+    }
+
+    #quick_contactus #rfi_email {
+        margin-left: 5px;
+        width: auto;
+    }
+
+    #contact-form .quickbox-title {
+        text-align: left;
+    }
+
+    #contact-form #quick_contactus {
+        width: 100%;
+        margin: 0;
+    }
+
+    #contact-form #quick_contactus #rfi_name input, #contact-form #quick_contactus #rfi_email input {
+        width: 100%;
+    }
+
+    #contact-form #quick_contactus #rfi_name {
+        margin: 0;
+        width: 100%;
+    }
+
+    #contact-form #quick_contactus #rfi_email {
+        margin: 0;
+        width: 100%;
+    }
+
+    #contact-form #quick_contactus .rf_fbu {
+        text-align: left;
+    }
+
+    /* Locations */
+    div > div.row > div.googleMapCol.col-md-6 > iframe {
+        height: 350px;
+    }
+
+    /* Line Builder */
+    ul > div.first.column.col-md-6 {
+        padding-right: 15px !important;
+    }
+
+    ul > div.last.column.col-md-6 {
+        padding-left: 15px !important;
+    }
+
+    #part-builder-buttons {
+        text-align: right !important;
+    }
+
+    .account-block .lbl-wrap {
+        width: 92px !important;
+    }
+
+    #part-builder-buttons {
+        margin-top: 0 !important;
+    }
+
+    /* Shopping Cart */
+    div.cartButtons {
+        text-align: left;
+    }
+
+    div.cartButtonCell.center {
+        text-align: center;
+    }
+
+    div.cba-button > table tr > td > div {
+        text-align: right !important;
+    }
+
+    /* Footer */
+    div.footerWrapper {
+        padding-top: 40px;
+    }
+
+    /* Account */
+    div#account_login_returning > .account-block, div#account_login_new > .account-block {
+        height: 430px;
+    }
+
+    .rfc_captcha .rf_value {
+        margin-left: 146px !important;
+    }
+
+    #flyout_contact .rfc_captcha .rf_value, #quick_contactus .rfc_captcha .rf_value {
+        margin-left: 0 !important;
+    }
+}
+
+@media (min-width: 990px) {
+    /* Header */
+    #header_top .header-top-cell li.nav_0 {
+        padding: 4px 7px;
+    }
+
+    #home_slideshow {
+        display: block;
+    }
+
+    #header_search_keywords {
+        width: 711px;
+        font-size: 32px;
+    }
+
+    #header_search li.field {
+        padding-top: 30px;
+    }
+
+    #header_search li.icon {
+        padding-left: 24px;
+    }
+
+    div#gtranslate > div#google_translate_element {
+        margin-right: 24px;
+    }
+
+    #top_nav .top_nav > ul.nav_0 {
+        margin-right: 10px;
+    }
+
+    div#storeLogo {
+        text-align: left;
+    }
+
+    div#storeLogo img.img-responsive.inlineImg {
+        margin-left: 29px;
+    }
+
+    .header-phone > ul {
+        margin-left: 22px;
+    }
+
+    div.upper_nav {
+        margin-left: -42px;
+    }
+
+    span#searchButton {
+        margin-top: 27px;
+    }
+
+    div.contentText.description-box.row {
+        margin-top: 49px;
+    }
+
+    #bottom-table {
+        margin-top: 29px;
+    }
+
+    div.options {
+        max-width: 430px;
+    }
+
+    /* Content */
+    .body-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #page_homepage .body-content {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    #page_homepage #bodyContent .contentContainer {
+        padding: 0 28px;
+    }
+
+    .contentContainer {
+        padding: 10px 0;
+        margin-top: 8px;
+    }
+
+    .catDesc {
+        padding-right: 35px;
+    }
+
+    .catSubDescription {
+        padding-left: 35px;
+    }
+
+    div.need-help {
+        padding-left: 38px;
+    }
+
+    div#contactFormContainer {
+        padding: 0 38px;
+    }
+
+    .fortyFivePercent {
+        padding-right: 46px;
+    }
+
+    div#lineBuilderBottomDivContainer div.contentText.description-box {
+        height: 364px;
+        margin: 49px 0;
+    }
+
+    /* Checkout Process */
+    .account-block .lbl-wrap {
+        width: 122px !important;
+    }
+
+    body#page_login .account-block {
+        min-height: 280px !important;
+    }
+
+    div#columnRight > div#right_content {
+        margin-top: 112px;
+    }
+
+    body#page_login button#login_button1 > span.ui-button-text {
+        padding: 15px 13px 12px 13px;
+    }
+
+    .body-content.has-r-col {
+        padding-right: 15px;
+    }
+
+    #columnRight {
+        padding-right: 40px;
+        padding-left: 7px;
+    }
+
+    div#columnRightContent {
+        margin-top: 113px;
+    }
+    body#page_account_newsletters .contentText, body#page_account_password .contentText, body#page_address_book .contentText, body#page_account .contentText {
+        margin-top: 49px;
+    }
+
+    /* Quick Form - newsletter */
+    div.quickformContainer {
+        padding: 5px 15px;
+    }
+
+    div#qf-title {
+        margin-top: 7px;
+        text-align: left;
+        width: 250px;
+        padding-right: 5px;
+    }
+
+    div#qf-firstname, div#qf-lastname, div#qf-Email {
+        padding: 0 5px;
+    }
+
+    div#qf-Email {
+        width: 336px;
+    }
+
+    div#qf-firstname input, div#qf-lastname input, div#qf-Email input {
+        margin: 5px 0;
+    }
+
+    div#qf-quickform-submit {
+        margin-top: 5px;
+        padding: 0 5px;
+        width: 50px;
+    }
+
+    /* Footer */
+    div.footerWrapper > div.container {
+        padding: 0 40px;
+    }
+
+    /* Account */
+    .frm-row-h li.frm-row-field.create-account {
+        width: 236px;
+    }
+
+    div#account_login_returning > .account-block, div#account_login_new > .account-block {
+        height: auto;
+    }
+
+    div#loginForgotPwDiv {
+        padding-left: 7px;
+    }
+
+    #upperNavAndHeaderShortcutsContainer {
+        width: 60.333%;
+    }
+
+    #gtranslate {
+        width: 23%;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* Flyout form */
+    #flyout_contact {
+        display: block;
+    }
+}

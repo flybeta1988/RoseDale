@@ -11,12 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    $app = app();
-    return view('welcome')->with('version', $app::VERSION);
-});
+Route::get('/', 'HomeController@index');
 
 Route::get('/foo', function () {
     $app = app();
     return view('foo')->with('version', $app::VERSION);
 });
+
+

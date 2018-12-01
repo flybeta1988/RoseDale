@@ -1,0 +1,19 @@
+/* Print styles */
+
+body {
+  background: #FFF;
+  background-image: none;
+}
+
+#header, .headerNavigation, #column_left, #column_right, .footer, #footer2, #printNav, .noprint, #admin_editbar {
+  display: none;
+}
+
+#central_content, #printlogo {
+  display: block;
+}
+
+form {
+  margin: 0px;
+}
+

@@ -1,0 +1,761 @@
+/* Account Management Page Styles */
+
+/* Titled Progress Bar */
+ol.titled_progressbar {
+	display: block;
+	padding: 1px;
+	width: 100%;
+	float: left;
+	border: 1px solid black;
+	margin: 5px 0 10px 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	list-style-type: none;
+}
+
+.titled_progressbar li {
+	display: block;
+	padding: 5px 0;
+	margin: 0;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #3E5567;
+	font-size: 10px;
+}
+
+.titled_progressbar li a {
+	color: #3E5567;
+}
+
+.titled_progressbar li.tp_current {
+	background: url(../../images/site/heading_gradient_med.jpg) #444 repeat-x top;
+	color: white;
+}
+
+.titled_progressbar li.tp_current a {
+	background: url(../../images/site/heading_gradient_med.jpg) #444 repeat-x top;
+	color: white;
+}
+
+.titled_progressbar li.tp_selected {
+	background: url(../../images/site/heading_gradient_med.jpg) #444 repeat-x 10px;
+	font-weight: bold;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+}
+
+.titled_progressbar li.tp_selected a {
+	background: url(../../images/site/heading_gradient_med.jpg) #444 repeat-x 10px;
+	font-weight: bold;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+}
+
+.titled_progressbar li.tp_first {
+	border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+}
+.titled_progressbar li.tp_last {
+	border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+}
+
+.titled_progressbar a {
+	color: #FFF;
+}
+
+
+#secure_progress_lock {
+	margin: 0;
+	padding: 0 0 0 4px;
+}
+
+#secure_progress_lock img {
+	margin: 0;
+	vertical-align: middle;
+}
+/* End Titled Progress Bar */
+
+
+/* Global Styles */
+fieldset.no-border,
+fieldset.acct-fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.req-fld-indicator {
+	color: #ff0000;
+}
+
+.edit-buttons {
+	margin: 10px 0 0 0;
+	text-align: right;
+}
+
+.continue-buttons {
+	text-align: right;
+}
+
+.account-frm li.continue-row .account-continue-info {
+	float: left;
+	vertical-align: middle;
+}
+
+.block-heading {
+	margin-bottom: 5px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: black;
+}
+
+#checkout_success_print_box {
+	float: left;
+}
+
+#continue_button_box {
+	float: right;
+	text-align: right;
+}
+/* End Global Styles */
+
+
+/* UL Form Rows */
+.frm-row-h,
+.frm-row-v {
+	list-style: none;
+	margin: 5px 0;
+	padding: 0;
+}
+
+.frm-row-h li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.frm-row-h li.frm-row-label {
+	width: 130px;
+	padding: 0 0 3px 0;
+	vertical-align: middle;
+}
+
+.frm-row-h li.frm-row-label.create-account {
+	width: 115px;
+}
+
+.frm-row-h li.frm-row-label.newsletter {
+	width: 80px;
+}
+
+.frm-row-h li.frm-row-field {
+	width: 150px;
+}
+
+/*.frm-row-h li.frm-row-field.create-account {*/
+	/*width: 236px;*/
+/*}*/
+
+.frm-row-h li.frm-row-field.newsletter {
+	width: 180px;
+}
+
+.frm-row-v li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.frm-row-h.methods,
+ul.frm-row-h.methods li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.frm-row-h.methods-list {
+	margin: 0;
+	padding: 0;
+}
+
+ul.frm-row-h.methods-list li {
+	margin: 0;
+	padding: 0;
+}
+
+.method-listing .method-title {
+	width: 80%;
+}
+
+.method-listing .method-cost {
+	width: 15%;
+}
+
+.method-listing .method-select-fld {
+	width: 5%;
+}
+/* End UL Form Rows */
+
+
+#account_block  {
+	width: 100%;
+	margin: 10px 0 20px 0;
+	/* border: 1px solid #000000; */
+}
+
+#account_block .req-msg {
+	clear: both;
+	padding: 10px 0;
+	text-align: right;
+}
+
+#account_block h3,
+#account_block h4 {
+	margin: 7px 0;
+	font-size: 16px;
+}
+
+h3 small {
+	color: inherit;
+	font-size: 14px;
+}
+
+/* Account Blocks */
+.account-block {
+	margin-bottom: 12px;
+	border: 1px solid #A4A4A4;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: 3px 3px 6px #888888;
+	padding: 14px;
+}
+
+.account-block legend {
+	font-weight: bold;
+	margin-left: -2px;
+	font-size: 14px;
+	color: #3E5567;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.account-block-text {
+	margin: 5px 0 7px 0;
+}
+
+.account-block ul.account-frm,
+.account-block ul.account-frm li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.account-block.form-block {
+	/*float: left;*/
+	/*min-height: 250px;*/
+	/*width: 44%;*/
+}
+
+#page_login .account-block.form-block {
+	min-height: 250px;
+}
+
+.account-block.last {
+	/*float: right;*/
+}
+
+.account-block ul.account-frm li {
+	padding: 3px 0;
+	/*border: 1px solid 0000ff;*/
+}
+
+.account-block ul.account-frm li.acct-row input[type='text'] {
+	width: 180px;
+}
+
+.account-block ul.account-frm li.acct-row select {
+	width: 159px;
+}
+
+.account-block ul.account-frm li.acct-row input#cc_cvv2,
+.account-block ul.account-frm li.acct-row input.cc_cvv2 {
+	width: 40px;
+}
+
+.account-block ul.account-frm li.acct-row a {
+
+}
+
+.account-block ul.account-frm li.acct-row input.state-other {
+	display: none;
+	margin: 3px 0 0 126px;
+}
+
+.account-block .lbl-wrap {
+	float: left;
+	width: 126px;
+}
+
+.account-frm label.acct-lbl {
+	width: 126px;
+}
+
+#billing_address_block {
+	padding-left: 0;
+	padding-right: 8px;
+}
+#shipping_address_block {
+	padding-right: 0;
+	padding-left: 8px;
+}
+
+/* End Account Blocks */
+
+/* Login Blocks */
+#account_login_form input[type='text'],
+#account_login_form input[type='password'] {
+	width: 175px;
+}
+
+#account_login_form .lbl-wrap {
+	width: 110px;
+}
+
+.account-login-submit-row button {
+	vertical-align: middle;
+}
+
+.account-submit-row {
+	padding-top: 10px;
+	text-align: center;
+	text-align: left;
+}
+
+.login-text-forgot-pw {
+	/*padding: 0 0 0 7px;*/
+	vertical-align: middle;
+}
+
+.login-opts-or-row {
+	padding: 7px 0;
+}
+
+.submit-buttons {
+	float: right;
+	width: 60%;
+	padding: 0;
+	text-align: right;
+}
+
+#account_antirobot_regs {
+	display: inline-block;
+}
+
+.antirobotreg-fld-wrap {
+	margin: 5px 0 0 0;
+
+}
+
+.antirobotreg-fld-wrap input {
+	margin: 4px 0 0 5px;
+}
+/* End Login Blocks */
+
+
+
+/* Edit address form */
+.fld-error,
+.fld-error.invalid {
+	border: 2px solid #FF0000;
+	background-color: #FADCE1;
+	width: 162px;
+}
+
+.fld-error.afilled {
+	border: 2px solid #EE7B01;
+	background-color: #FCD6AE;
+	width: 162px;
+}
+
+.fld-error.invalid {
+	border: 2px solid #FF0000;
+	background-color: #FADCE1;
+	width: 162px;
+}
+
+.fld-error.valid {
+	border: 2px solid #03911B;
+	background-color: #CBFCD3;
+	width: 162px;
+}
+
+#antirobotreg {
+	width: 60px;
+}
+
+label.lbl-error,
+label.lbl-error.invalid,
+li.lbl-error,
+li.lbl-error.invalid {
+	color: #FF0000;
+}
+
+label.lbl-error.afilled,
+li.lbl-error.afilled {
+	color: #EE7B01;
+}
+
+label.lbl-error.valid,
+li.lbl-error.valid {
+	color: #03911B;
+}
+
+#address_edit_frm {
+	width: 360px;
+	min-height: 400px;
+}
+
+.account-block.address-frm.editor {
+	min-height: 250px;
+	width: 320px;
+	background-color: #FFFFFF;
+}
+
+.submit-address-edit {
+	padding: 12px 0 0 0;
+	text-align: right;
+}
+
+.address-chooser-list {
+	list-style: none;
+	margin: 8px 0 5px 0;
+	padding: 0;
+}
+
+.address-chooser-list li {
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+}
+
+.address-chooser-row.even {
+
+}
+
+.address-chooser-row.odd {
+
+}
+
+.address-chooser-lbl {
+	width: 60%;
+}
+
+.address-chooser-fld {
+	float: right;
+	width: 15%;
+	text-align: right;
+}
+
+.address-chooser-buttons-row {
+	text-align: right;
+}
+
+#address_edit_frm label.acct-lbl {
+	width: 130px;
+	text-align: left;
+}
+
+#address_edit_frm .lbl-wrap {
+	text-align: left;
+}
+
+/* Password fields box */
+#passwords_box {
+	display: none;
+}
+
+#password_field_set #password_flds {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#password_field_set #password_flds li {
+	list-style: none;
+	margin: 0;
+	padding: 3px 0;
+}
+
+#password_field_set .password-label {
+	float: left;
+	width: 155px;
+}
+
+#password_field_set .password-lbl-wrap {
+	float: left;
+	width: 145px;
+}
+
+#password_field_set .lbl-password,
+#password_field_set .lbl-password_confirm {
+	float: left;
+	width: 100%;
+}
+/* End Edit address form */
+
+
+/* Payment Block */
+fieldset.pmt-methods {
+	/* border: 1px solid #CDCDCD; */
+}
+
+.pmt-methods legend {
+	font-size: 12px;
+}
+
+#pmt_methods_left {
+	/*float: left;
+	width: 460px;*/
+
+}
+
+#pmt_methods_right {
+	/*float: left;
+	width: 590px;
+	margin: 3px 0 0 16px;*/
+}
+
+.pmt-method-box {
+	width: 100%;
+	margin: 3px 4px;
+	border: 1px solid #CDCDCD;
+	padding: 2px 4px;
+}
+
+.pmt-method-box.cc-frm {
+	/*width: 580px;*/
+	margin: 0 0 15px 0;
+}
+
+#pmt_method_paypal_hss {
+	width: 580px;
+}
+
+.payment-selection-block .button-row {
+	margin: 4px 4px 2px 0;
+	text-align: right;
+}
+
+.payment-selection-block {
+	position: relative;
+}
+
+.payment-method-row {
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding: 3px;
+}
+
+.payment-method-row.first {
+	border-top: 1px solid #999999;
+}
+
+#payment_methods .lbl-wrap {
+	width: 136px;
+}
+
+#payment_methods #payment_method_po .lbl-wrap {
+	width: 146px;
+}
+
+#payment_methods .account-frm label.acct-lbl {
+	width: 136px;
+}
+
+.payment-select-col {
+	float: left;
+}
+
+.payment-select-col.radio {
+	width: 30px;
+}
+
+.payment-select-col.label {
+	width: 180px;
+}
+
+.payment-info-form {
+	/* display: none; */
+	width: 500px;
+	margin: 2px 0 0 8px;
+}
+
+.payment-info-form input {
+
+}
+
+#payment_methods textarea {
+	width: 97%;
+}
+
+#payment_methods select {
+	width: 120px;
+	display: inline-block;
+}
+
+#payment_methods ul.account-frm li.acct-row select.month {
+	width: 120px;
+}
+#payment_methods ul.account-frm li.acct-row select.cc-type {
+	width: 140px;
+}
+
+#pmtConfirm_form {
+	width: 396px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+.account-block ul.account-frm li.acct-row input[type='text'].cvv-fld {
+	width: 65px;
+}
+
+.payment-confirmation-block .fld-wrap {
+	display: inline-block;
+}
+/* End Payment Block */
+
+
+/* Right Column */
+#right_content .heading-row {
+	padding: 7px 10px;
+	background-color: #3E5567;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+#right_content .cc-icons-row {
+	padding: 16px 0;
+	text-align: center;
+}
+
+#right_content .content-row {
+	padding: 3px 6px 3px 0px;
+	text-align: left;
+}
+
+#right_content .privacy-policy-link {
+	padding-top: 5px;
+	text-align: left;
+	padding-top: 10px;
+}
+/* End Right Column */
+
+/* Receipt */
+#receipt_container {
+	margin: 12px;
+}
+
+/* Authorizenet styles */
+.default-profile-link,
+.default-profile-link a {
+	color: #B20003;
+}
+
+.frm-label,
+.cc-address-frmset label {
+	display: inline-block;
+}
+
+#cc-profile-frmset {
+	width: 770px;
+	vertical-align: top;
+}
+
+.cc-profile-frm li,
+.cc-profile-frm li div {
+	vertical-align: top;
+}
+
+.cc-profile-frm #country_id {
+	width: 280px;
+}
+
+#cc-profile-frmset .cc-edit .frm-label {
+	width: 152px;
+}
+
+#cc-profile-frmset .cc-edit {
+	margin-left: 10px;
+}
+
+.cc-profile-frm .cim-profile.list-row {
+	display: inline-block;
+}
+
+.cc-profile-frm .cim-profile.list-row.label {
+
+}
+
+.cc-profile-frm .cim-profile.list-row.selector-fld {
+	width: 65px;
+}
+
+.cc-profile-frm {
+	display: inline-block;
+	width: 290px;
+	vertical-align: top;
+}
+
+.cc-profile-frm.cc-chooser {
+	width: 310px;
+	margin-right: 10px;
+}
+
+.cc-profile-frm.cc-chooser li.profile-row {
+	border-bottom: 1px solid #000066;
+}
+
+.cc-profile-frm.cc-edit {
+	width: auto;
+}
+
+.cc-address-frmset {
+
+}
+
+.cc-address-frmset .cc-addr-row {
+	padding: 0 0 3px 0;
+}
+
+.cc-address-frmset label {
+	display: inline-block;
+	width: 96px;
+	padding: 0 4px 3px 0;
+}
+
+.cc-profile-frm .cc-form-submit-set {
+	text-align: right;
+}
+
+.cc-profile-frm .cc-form-submit-set.selector {
+	padding-top: 12px;
+	text-align: center;
+}
+
+li.acct-row textarea {
+	color: #3C5569;
+	font-size: 14px;
+}

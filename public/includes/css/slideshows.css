@@ -1,0 +1,77 @@
+/*----------Slideshow----------------*/
+#home_slideshow {
+	position: relative;
+	margin: 0 auto;
+    padding-bottom: 30px;
+    display: none;
+}
+
+.homeImgs {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.homeImgs a {
+	margin: 0;
+}
+
+.homeImgs img {
+}
+
+#homeImgBanner {
+	float: left;
+	width: 990px;
+}
+
+#homeImgBanner .bx-wrapper {
+
+}
+
+#homeImgBanner .bx-wrapper .bx-viewport {
+}
+
+.slideshow-cycle,
+.slideshow-cycle li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.slideshow-cycle li {
+	display: none;
+	overflow: hidden;
+}
+
+/*-----Navagation for the slides ----*/
+
+.shownav {
+  /* you can add positioning properties here if needed */
+  width: 180px; /* change as required */
+  padding: 0;
+  z-index: 999;
+  position: absolute;
+  left: 62px;
+  top: 324px;
+}
+
+.shownav a {
+  display: block;
+  float: left;
+/*
+  width: 15px;
+*/
+  height: 15px;
+  text-indent: -999em;
+  background: none;
+
+  margin-right: 10px;
+}
+
+.shownav a {
+  background: #999999; /* optional: color when hovered */
+}
+
+.shownav a.activeSlide {
+  background: #F94C07; /* color when active */
+}

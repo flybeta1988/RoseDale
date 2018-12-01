@@ -1,0 +1,129 @@
+div.options-table {
+	/*width: 960px;*/
+}
+div.options-table ul {
+	list-style-type: none;
+}
+div.options-table li {
+	/*width: 430px;*/
+	width: 100%;
+}
+div.options-table li.options {
+	line-height: 2.2em;
+	margin-bottom: 10px;
+}
+div.options-table ul,
+div.options-table li {
+	margin: 0;
+	padding: 0;
+}
+div.options {
+	/*max-width: 430px;*/
+	overflow: hidden;
+}
+select.options {
+	/*height: 30px;*/
+	font-size: 15px;
+	padding: 5px;
+	background: #E7E7E7 url(../../images/site/dropdown_arrow.jpg) no-repeat 95% center;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	overflow: hidden;
+	width: 100%;
+}
+select::-ms-expand {
+	display: none;
+}
+label.option-label {
+	margin-left: 25px;
+	color: #FA4D08;
+	font-size: 15px;
+	font-weight: bold;
+}
+#part-price {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FA4D08;
+}
+#part-number {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FA4D08;
+}
+#part-number-container {
+	min-height: 15px;
+	margin: 10px 25px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FA4D08;
+}
+#part-builder-buttons {
+	/*margin-left: 30px;*/
+	/*width: 270px;*/
+	/*float: right;*/
+	/*margin-right: -6px;*/
+	/*margin-top: 25px;*/
+	text-align: center;
+	margin-top: 20px;
+}
+
+#part-builder-buttons
+
+#qty input {
+	height: 30px;
+	font-size: 15px;
+	width: 50px;
+	padding: 5px;
+	border: none;
+	color: #FA4D08;
+	font-weight: bold;
+}
+#bottom-table {
+	width: 100%;
+}
+#bottom-table td {
+	width: 430px;
+}
+
+#bottom-table table#part-builder-buttons td {
+	padding-left: 7px;
+}
+
+.builder-header {
+	font-size: 30px;
+	color: #FA4D08;
+	padding: 23px 0 0 0;
+}
+div.builder-separator {
+	display: inline-block;
+	background: url(../../images/site/content_separator.jpg) no-repeat center top;
+	height: 100%;
+	width: 1px;
+	position: absolute;
+	left: 50%;
+}
+div.specification-pdf {
+	/*color: #3E5567;*/
+	/*display: table-cell;*/
+	/*float: right;*/
+	/*vertical-align: middle;*/
+	/*margin-top: -4px;*/
+	/*right: 10px;*/
+	/*position: relative;*/
+}
+
+div#firstPartBuilderButtonRow {
+	/*margin-bottom: 10px;*/
+	padding-top: 45px;
+}
+
+ul > div.first.column.col-md-6 {
+	padding: 0;
+}
+
+ul > div.last.column.col-md-6 {
+	padding: 0;
+}

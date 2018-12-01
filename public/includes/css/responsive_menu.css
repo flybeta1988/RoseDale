@@ -1,0 +1,16 @@
+
+
+div#responsive_nav {
+    display: none;
+}
+
+div#responsiveMenuButton {
+    text-align: right;
+    position: relative;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+div#responsiveMenuButton img {
+    display: inline-block;
+}
