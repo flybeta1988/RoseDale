@@ -18,4 +18,6 @@ Route::get('/foo', function () {
     return view('foo')->with('version', $app::VERSION);
 });
 
+Route::any('/contact_us', 'HomeController@contactUs');
+
 

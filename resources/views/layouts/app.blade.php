@@ -66,17 +66,18 @@
     <script src="https://www.google.com/recaptcha/api.js?onload=CaptchaCallback&amp;render=explicit" async defer></script>
     <script type="text/javascript">
         var CaptchaCallback = function(){
+            var sitekey = '6Lc_RX4UAAAAAHXOf_Ee3crDUeyKU8ID7bWqO7ds';
             if ($('#flyoutRecaptcha').length > 0) {
-                grecaptcha.render('flyoutRecaptcha', {'sitekey' : '6Ld1IBwTAAAAAHbsjtVhBshVeVbTE3cU0yUQXc-w'});
+                grecaptcha.render('flyoutRecaptcha', {'sitekey' : sitekey});
             }
             if ($('#formRecaptcha').length > 0) {
-                grecaptcha.render('formRecaptcha', {'sitekey' : '6Ld1IBwTAAAAAHbsjtVhBshVeVbTE3cU0yUQXc-w'});
+                grecaptcha.render('formRecaptcha', {'sitekey' : sitekey});
             }
             if ($('#quickContactRecaptcha').length > 0) {
-                grecaptcha.render('quickContactRecaptcha', {'sitekey' : '6Ld1IBwTAAAAAHbsjtVhBshVeVbTE3cU0yUQXc-w'});
+                grecaptcha.render('quickContactRecaptcha', {'sitekey' : sitekey});
             }
             if ($('#createAccountRecaptcha').length > 0) {
-                grecaptcha.render('createAccountRecaptcha', {'sitekey' : '6Ld1IBwTAAAAAHbsjtVhBshVeVbTE3cU0yUQXc-w'});
+                grecaptcha.render('createAccountRecaptcha', {'sitekey' : sitekey});
             }
         };
     </script>
@@ -1238,14 +1239,13 @@
             <script type="text/javascript">
 
                 function submitQuickContact() {
-                    $.post("https://www.rosedaleproducts.com/contact_ajax.php?fromForm=quick_contact", $("#rff_dbforms_quick_contact :input").serialize(), function(data) {
+                    $.post("/contact_us", $("#rff_dbforms_quick_contact :input").serialize(), function(data) {
                         // alert(data.msg);
                         $("#rff_dbforms_quick_contact .rf_fi :input").val('');
                         $("#qf_dialog").css('background-color', '#E6E7E9');
                         $("#qf_dialog").html(data.msg);
                         $("#qf_dialog").dialog("open");
                     }, "json");
-
                 }
 
                 $(document).ready(function() {
@@ -1261,14 +1261,35 @@
                 });
             </script>
 
-            <div id="qf_dialog"></div><div id="quick_contactus"><div class="rf_welcome"><div class="quickbox-title">Contact Us</div></div><form method="post" action="home-i-1.html" id="rff_dbforms_quick_contact"><div class="rf_form"><div id="rfi_name" class="rf_fi rfc_text rf_cr"><div class="rf_value"><input type="text" name="name" id="name" value="" placeholder="Name" /></div></div>
-                        <div id="rfi_email" class="rf_fi rfc_email rf_cr"><div class="rf_value"><input type="email" name="email" id="email" value="" placeholder="Email Address" /></div></div>
-                        <div id="rfi_message" class="rf_fi rfc_textarea rf_cr"><div class="rf_value"><textarea cols="40" rows="4" name="message" id="message" placeholder="Add your message here."></textarea></div></div>
+            <div id="qf_dialog"></div>
+            <div id="quick_contactus">
+                <div class="rf_welcome">
+                    <div class="quickbox-title">Contact Us</div>
+                </div>
+                <form method="POST" action="/contact_us" id="rff_dbforms_quick_contact">
+                    <div class="rf_form">
+                        <div id="rfi_name" class="rf_fi rfc_text rf_cr">
+                            <div class="rf_value">
+                                <input type="text" name="name" id="name" value="" placeholder="Name" />
+                            </div></div>
+                        <div id="rfi_email" class="rf_fi rfc_email rf_cr">
+                            <div class="rf_value">
+                                <input type="email" name="email" id="email" value="" placeholder="Email Address" />
+                            </div>
+                        </div>
+                        <div id="rfi_message" class="rf_fi rfc_textarea rf_cr">
+                            <div class="rf_value">
+                                <textarea cols="40" rows="4" name="message" id="message" placeholder="Add your message here."></textarea>
+                            </div>
+                        </div>
                         <input type="hidden" name="referrer" value="/" />
 
-                        <div id="rfi_&nbsp;" class="rf_fi rfc_captcha rf_cn"><div class="rf_name"></div><div class="rf_value">
+                        <div id="rfi_&nbsp;" class="rf_fi rfc_captcha rf_cn">
+                            <div class="rf_name"></div>
+                            <div class="rf_value">
                                 <div id="quickContactRecaptcha"></div>
-                            </div></div>
+                            </div>
+                        </div>
                         <div class="rf_fbu"><input name="dbforms_quick_contact_bu_submit" id="submit" type="submit" value="SUBMIT" /></div></div></form></div><!-- EOF quick_contact -->
 
 
